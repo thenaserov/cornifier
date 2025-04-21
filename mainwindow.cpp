@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
     indexingThread(new QThread(this))
 {
 
-    ui = new Ui::MainWindow;
+    // ui = new Ui::MainWindow;
     ui->setupUi(this);
     ui->resultListView->setModel(model);
     // Thread setup
